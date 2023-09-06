@@ -1,0 +1,8 @@
+*.pyc
+env/*
+db*sqlite3*
+.idea
+staticfiles
+run_setup.bat
+run_setup.sh
+*.log
