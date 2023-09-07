@@ -16,7 +16,7 @@ Use this repository as a template project for most django projects. This way, mo
     ```
   - Run the following command to create the new project, using django-template as a template project in your new directory (note: the '.' at the end of the command notes to use the current directory)
     ```
-    django-admin startproject --template=https://github.com/impactupgrade/django-template/archive/refs/head/master.zip <project_name> .
+    django-admin startproject --template=https://github.com/impactupgrade/django-template/archive/master.zip <project_name> .
     ```
 
 ## Typical Start-Up
