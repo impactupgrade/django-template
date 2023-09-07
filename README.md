@@ -3,10 +3,27 @@ Use this repository as a template project for most django projects. This way, mo
 
 ## Getting Started
 
+- Create new django project from template
+  - Create the directory you want the new project to be in (name it the same as your project name) and navigate into it
+    ```
+    mkdir <project_name>
+    ```
+  - Setup the initial virtual environment and make sure django is installed
+    ```
+    python3 -m venv env
+    source env/bin/activate (for Windows use: env\scripts\activate)
+    pip install django
+    ```
+  - Run the following command to create the new project, using django-template as a template project in your new directory (note: the '.' at the end of the command notes to use the current directory)
+    ```
+    django-admin startproject --template=https://github.com/impactupgrade/django-template/archive/refs/head/master.zip <project_name> .
+    ```
+
+## Typical Start-Up
 - Create virtual environment / install app requirements / setup db / start server
 
 ```
-python3 -m venv env
+python3 -m venv env (if not already created)
 source env/bin/activate (for Windows use: env\scripts\activate)
 pip install -r requirements.txt
 export/set DATABASE_URL=<db_connection_url>
